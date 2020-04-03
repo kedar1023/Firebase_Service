@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:id="@+id/coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+        <TextView
+            android:id="@+id/abbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coursename"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Course id"
+            android:textColor="#000"
+            android:textSize="20sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/courseid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/abbr"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="-38dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@id/abbr"
+            android:padding="10dp"
+
+
+            android:text="Abbravation"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
